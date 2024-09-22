@@ -3,104 +3,200 @@
 <head>
     <meta charset="UTF-8">
     <title>Happy Birthday MICHELLE!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+        /* General Styles */
         body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f2f2f2;
-            padding: 50px;
-        }
-        .container {
-            background-color: white;
-            padding: 30px;
-            border-radius: 10px;
-            display: inline-block;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 10px;
-        }
-        h1 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #ffecd2, #fcb69f);
+            margin: 0;
+            padding: 0;
             color: #333333;
         }
-        p {
-            color: #555555;
+
+        /* Header Section */
+        .header {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #333333;
+        }
+
+        .header p {
             font-size: 1.2em;
+            color: #555555;
+            margin-top: 10px;
+        }
+
+        /* Gallery Section */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .gallery-item {
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            background-color: white;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.3s;
+        }
+
+        .gallery-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.05);
+        }
+
+        /* Message Section */
+        .message {
+            background-color: rgba(255, 255, 255, 0.9);
+            margin: 40px auto;
+            padding: 40px 30px;
+            border-radius: 10px;
+            max-width: 800px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: left;
+            font-size: 1.1em;
+            line-height: 1.6em;
+            color: #333333;
+        }
+
+        /* Responsive Adjustments */
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 2em;
+            }
+
+            .header p, .message {
+                font-size: 1em;
+            }
+
+            .message {
+                padding: 30px 20px;
+            }
         }
     </style>
 </head>
 <body>
-    <div class="container">
+    <!-- Header Section -->
+    <div class="header">
         <h1>Happy Birthday, MICHELLE!</h1>
-        <img src="photo_1_2024-09-22_00-29-18.jpg" alt="Image 1">
-        <img src="photo_2_2024-09-22_00-29-18.jpg" alt="Image 2">
-        <img src="photo_3_2024-09-22_00-29-18.jpg" alt="Image 3">
-        <img src="photo_4_2024-09-22_00-29-18.jpg" alt="Image 4">
-        <img src="photo_5_2024-09-22_00-29-18.jpg" alt="Image 5">
-        <img src="photo_6_2024-09-22_00-29-18.jpg" alt="Image 6">
-        <img src="photo_7_2024-09-22_00-29-18.jpg" alt="Image 7">
-        <img src="photo_8_2024-09-22_00-29-18.jpg" alt="Image 8">
-        <img src="photo_9_2024-09-22_00-29-18.jpg" alt="Image 9">
-        <img src="photo_10_2024-09-22_00-29-18.jpg" alt="Image 10">
-        <p>It all kicked off most unexpectedly,
-On Instagram of all places.
-Where you decide to comment on a “totally not total stranger.”
-Can you believe you did that? 
+        <p>20th chapter OMDSSSS</p>
+    </div>
 
-But there was something undeniably magnetic about you.
-Before I knew it, those casual chats morphed into frequent conversations,
-And honestly, I found myself looking forward to each ping like a gamer waiting for FC 25 to launch. 
+    <!-- Gallery Section -->
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="photo_1_2024-09-22_00-29-18.jpg" alt="Image 1">
+        </div>
+        <div class="gallery-item">
+            <img src="photo_2_2024-09-22_00-29-18.jpg" alt="Image 2">
+        </div>
+        <div class="gallery-item">
+            <img src="photo_3_2024-09-22_00-29-18.jpg" alt="Image 3">
+        </div>
+        <div class="gallery-item">
+            <img src="photo_4_2024-09-22_00-29-18.jpg" alt="Image 4">
+        </div>
+        <div class="gallery-item">
+            <img src="photo_5_2024-09-22_00-29-18.jpg" alt="Image 5">
+        </div>
+        <div class="gallery-item">
+            <img src="photo_6_2024-09-22_00-29-18.jpg" alt="Image 6">
+        </div>
+        <div class="gallery-item">
+            <img src="photo_7_2024-09-22_00-29-18.jpg" alt="Image 7">
+        </div>
+        <div class="gallery-item">
+            <img src="photo_8_2024-09-22_00-29-18.jpg" alt="Image 8">
+        </div>
+        <div class="gallery-item">
+            <img src="photo_9_2024-09-22_00-29-18.jpg" alt="Image 9">
+        </div>
+        <div class="gallery-item">
+            <img src="photo_10_2024-09-22_00-29-18.jpg" alt="Image 10">
+        </div>
+    </div>
 
-Then came that pool party.
-Our first meetup,
-And wow, it felt surreal.
-You were there, radiating joy and lighting up the whole scene,
-And suddenly, everything just clicked.
-We connected effortlessly as if we’d been pals forever,
-Even though it was just the start of our adventure.
-          
-From that day on, everything flowed so naturally,
-Like it was written in the stars.
-We hung out more, shared stories,
-And those spontaneous moments started feeling less random.
-And more like the beginning of something truly special.
-          
-Fast forward to April 4th, 2024—
-That’s when we made it official.
-Looking back, I realize it was a pivotal moment,
-The day everything shifted for the better.
-You’ve become my confidant,
-The one who knows how to make me laugh on my toughest days,
-The one who just gets me, no matter what.
-          
-You’ve brought a sense of fulfillment I never knew I needed.
-It’s not just about being happy—
-It’s the comfort of knowing that with you, I’ve got someone who’s always got my back.
-You’ve infused so much joy into my life,
-And it’s in those little moments that it hits home—
-The way you listen, the way you care,
-And how you’re unapologetically, authentically you.
-          
-And now, here we are,
-Celebrating your 20th birthday!
-I’m genuinely in awe of the incredible person you are—
-Strong, compassionate, and fun to be with.
-I’m just so proud to know you and even prouder to love you.
-          
-This is just the prologue of our story,
-And I’m excited for all the chapters yet to come.
-More laughter, more adventures,
-More late-night chats,
-And more love.
-          
-So, happy 20th birthday, Lil Momma!
-Here’s to you, and here’s to us.
-I couldn’t ask for a better partner,
-And I can’t wait to see where this journey takes us next
-I LOVE YOU! 
-</p>
+    <!-- Message Section -->
+    <div class="message">
+        <p>It all kicked off most unexpectedly,<br>
+        On Instagram of all places.<br>
+        Where you decide to comment on a “totally not total stranger.”<br>
+        Can you believe you did that? </p>
+
+        <p>But there was something undeniably magnetic about you.<br>
+        Before I knew it, those casual chats morphed into frequent conversations,<br>
+        And honestly, I found myself looking forward to each ping like a gamer waiting for FC 25 to launch.</p>
+
+        <p>Then came that pool party.<br>
+        Our first meetup,<br>
+        And wow, it felt surreal.<br>
+        You were there, radiating joy and lighting up the whole scene,<br>
+        And suddenly, everything just clicked.<br>
+        We connected effortlessly as if we’d been pals forever,<br>
+        Even though it was just the start of our adventure.</p>
+              
+        <p>From that day on, everything flowed so naturally,<br>
+        Like it was written in the stars.<br>
+        We hung out more, shared stories,<br>
+        And those spontaneous moments started feeling less random.<br>
+        And more like the beginning of something truly special.</p>
+              
+        <p>Fast forward to April 4th, 2024—<br>
+        That’s when we made it official.<br>
+        Looking back, I realize it was a pivotal moment,<br>
+        The day everything shifted for the better.<br>
+        You’ve become my confidant,<br>
+        The one who knows how to make me laugh on my toughest days,<br>
+        The one who just gets me, no matter what.</p>
+              
+        <p>You’ve brought a sense of fulfillment I never knew I needed.<br>
+        It’s not just about being happy—<br>
+        It’s the comfort of knowing that with you, I’ve got someone who’s always got my back.<br>
+        You’ve infused so much joy into my life,<br>
+        And it’s in those little moments that it hits home—<br>
+        The way you listen, the way you care,<br>
+        And how you’re unapologetically, authentically you.</p>
+              
+        <p>And now, here we are,<br>
+        Celebrating your 20th birthday!<br>
+        I’m genuinely in awe of the incredible person you are—<br>
+        Strong, compassionate, and fun to be with.<br>
+        I’m just so proud to know you and even prouder to love you.</p>
+              
+        <p>This is just the prologue of our story,<br>
+        And I’m excited for all the chapters yet to come.<br>
+        More laughter, more adventures,<br>
+        More late-night chats,<br>
+        And more love.</p>
+              
+        <p>So, happy 20th birthday, Lil Momma!<br>
+        Here’s to you, and here’s to us.<br>
+        I couldn’t ask for a better partner,<br>
+        And I can’t wait to see where this journey takes us next.<br>
+        <strong>I LOVE YOU!</strong></p>
     </div>
 </body>
 </html>
